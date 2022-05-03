@@ -252,10 +252,15 @@ ul li a:hover::before {
     height: 380px;
     transition: all ease 0.3s;
     width: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .card img {
     max-height: 220px;
+ 
     max-width: 200px;
     width: 200px;
 }
@@ -266,6 +271,7 @@ ul li a:hover::before {
 }
 
 .card a {
+    
     font-size: 1.6rem;
     color: #F7CCAC;
     transition: all ease 0.3s;
@@ -276,6 +282,9 @@ ul li a:hover::before {
 }
 
 .links {
+    margin-top: auto;
+    display: grid;
+    align-items: end;
     line-height: 35px;
 }
 
@@ -394,10 +403,6 @@ ul li a:hover::before {
     width: 350px;
     max-width: 350px;
     margin-top: 5%;
-}
-
-.whatsapp {
-    margin-left: 5%;
 }
 
 .links-contact a span {
